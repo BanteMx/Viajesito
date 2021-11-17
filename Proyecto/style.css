@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+.main-header{
+    
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://source.unsplash.com/GkHCIOqaCVM);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Dosis', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+.main-nav{
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+.logo{
+
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    padding: 10px 40px;
+    font-size: 1.3rem;
+    color: white;
+   
+}
+
+ul{
+
+    display: flex;
+    margin-left: auto;
+    margin-right: 90px;
+}
+ul, li, a{
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 1.3rem;
+    color: white;
+}
+ul li a:hover{
+    background-image: linear-gradient(to right top, #5c2885, #0061bb, #008abf, #00ab9f, #69c479);
+}
+
+
+.conten-header{
+    color: white;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.conten-header h1{
+    font-size: 7rem;
+}
+.conten-header p{
+    font-size: 1.5rem;
+    margin: 15px 30px;
+}
+.conten-header a{
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 15px 15px;
+    background: rgb(153, 109, 255);
+    color:#fff;
+}
+.conten-header a:hover{
+    background-image: linear-gradient(to right top, #5c2885, #0061bb, #008abf, #00ab9f, #69c479);
+    border: 2px solid #fff;
+    padding: 13px 13px;
+}
+
+.linea,
+.linea2{
+    position: absolute;
+    width: 20px;
+    height: 130%;
+    background: rgb(37, 93, 49);
+    right: 10%;
+    top: -50px;
+    transform: rotate(15deg);
+    z-index: 1;
+    background-image: linear-gradient(to right top, #04337a, #005393, #006e8d, #00856f, #379648);
+}
+.linea2{
+    right: 15%;
+}
